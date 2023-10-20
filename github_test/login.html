@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Đăng nhập</h1>
+
+    <div class="container">
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required><br>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" name="password" required><br>
+
+            <input type="submit" value="Đăng nhập">
+        </form>
+
+        <script>
+            {% if "success" in request.args %}
+                document.write("{{ url_for('login_success') }}");
+            {% elif "error" in request.args %}
+                document.write("{{ url_for('login_error') }}");
+            {% endif %}
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1 @@
+{"name":"Local: khoiphucxau","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\khoiphucxau.py","tests":[{"id":1689689086462,"input":"6\ny???z?\n2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1","output":"yaabzc"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\khoiphucxau.py","group":"local","local":true}

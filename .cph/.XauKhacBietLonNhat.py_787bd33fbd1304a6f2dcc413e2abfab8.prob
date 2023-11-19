@@ -1,0 +1,1 @@
+{"name":"Local: XauKhacBietLonNhat","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\XauKhacBietLonNhat.py","tests":[{"id":1693367004384,"input":"abc\nabcccabac\n3\ncbb\ncbba\ncba","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\XauKhacBietLonNhat.py","group":"local","local":true}

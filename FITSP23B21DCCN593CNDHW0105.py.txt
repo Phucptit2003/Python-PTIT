@@ -1,0 +1,17 @@
+# Test case 01
+Input:
+    n = 10
+    k = 5
+Output
+	Giới hạn Greismer: 6
+	Giới hạn Plotkin: 12
+	Giới hạn Hamming: 9
+	
+# Test case 02
+Input:
+    n = 9
+    k = 7
+Output:
+	Giới hạn Greismer: 3
+	Giới hạn Plotkin: 6
+	Giới hạn Hamming: 3

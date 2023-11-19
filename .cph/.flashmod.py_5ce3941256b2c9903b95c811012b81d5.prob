@@ -1,0 +1,1 @@
+{"name":"Local: flashmod","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\flashmod.py","tests":[{"id":1689069091570,"input":"1 3\n2 1\n3 2\n4 1","output":"3 3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\flashmod.py","group":"local","local":true}

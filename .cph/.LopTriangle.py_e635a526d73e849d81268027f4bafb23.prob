@@ -1,0 +1,1 @@
+{"name":"Local: LopTriangle","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\LopTriangle.py","tests":[{"id":1700385413359,"input":"3\n0 0 0 5 0 199\n1 1 1 1 1 1\n0 0 0 5 5 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\LopTriangle.py","group":"local","local":true}

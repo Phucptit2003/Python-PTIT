@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thư Mời Sinh Nhật</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #FFC0CB; /* Màu nền hồng */
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #FFFFFF; /* Màu nền trắng cho thư */
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng bay */
+    }
+    
+    h1 {
+      color: #FF0000; /* Màu đỏ cho tiêu đề */
+    }
+    
+    p {
+      color: #000000; /* Màu đen cho nội dung */
+      font-size: 18px;
+    }
+    
+    .heart {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      animation: heartbeat 1s infinite;
+    }
+    
+    .heart:before,
+    .heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    
+    .heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+    
+    @keyframes heartbeat {
+      0% {
+        transform: scale(0.8);
+      }
+      20% {
+        transform: scale(1);
+      }
+      40% {
+        transform: scale(0.8);
+      }
+      60% {
+        transform: scale(1);
+      }
+      80% {
+        transform: scale(0.8);
+      }
+      100% {
+        transform: scale(0.8);
+      }
+    }
+    
+    .envelope {
+      position: relative;
+      margin: 50px auto;
+      width: 200px;
+      height: 150px;
+      background-color: #FFD700; /* Màu nền vàng cho phong bì */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng bay */
+      overflow: hidden;
+      cursor: pointer;
+    }
+    
+    .envelope:before {
+      content: "";
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 200px;
+      height: 200px;
+      background-color: #FFD700; /* Màu nền vàng cho phong bì */
+      border-radius: 50%;
+      transform: rotate(-45deg);
+    }
+    
+    .envelope:after
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Thư Mời Sinh Nhật</title>
+      <style>
+        /* ... CSS code ... */
+      </style>
+      <script>
+        // Function to toggle envelope open/close
+        function toggleEnvelope() {
+          const envelope = document.querySelector(".envelope");
+          envelope.classList.toggle("open");
+        }
+      </script>
+    </head>
+    <body>
+      <div class="container">
+        <h1>Thư Mời Sinh Nhật</h1>
+        <div class="envelope" onclick="toggleEnvelope()">
+          <div class="heart"></div>
+          <div class="message">Mở thư</div>
+        </div>
+        <div class="message-content">
+          <p>
+            Kính gửi Anh em 402,<br>
+            Bạn được mời đến dự tiệc sinh nhật của Phú cờ lê!
+          </p>
+          <p>
+            Thời gian: Tối thứ 5 ngày 11/5<br>
+            Địa điểm: Phòng 402 
+          </p>
+          <p>
+            Vui lòng xác nhận sự có mặt của bạn bằng cách gửi ấn "OK" trong nhóm Hậu cung 402
+          </p>
+          <p>
+            Phú Cờ Lê rất mong được gặp bạn vào ngày sinh nhật!<br>
+            NOTE: Nhớ có quà :>
+          </p>
+          <p>
+            Trân trọng,<br>
+            Phú Cờ Lê
+          </p>
+        </div>
+      </div>
+    </body>
+    </html>
+    

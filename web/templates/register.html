@@ -1,0 +1,31 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Đăng ký</h2>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <div class="mb-3">
+            {{ form.username.label(class="form-label") }}
+            {{ form.username(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            {{ form.password.label(class="form-label") }}
+            {{ form.password(class="form-control") }}
+        </div>
+        <div class="mb-3">
+            {{ form.confirm_password.label(class="form-label") }}
+            {{ form.confirm_password(class="form-control") }}
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng ký</button>
+    </form>
+    
+    {% if registration_successful %}
+    <div class="alert alert-success mt-3">
+        Đăng ký thành công!
+    </div>
+    <a href="{{ url_for('login') }}" class="btn btn-secondary mt-3">Đăng nhập</a>
+    {% endif %}
+</div>
+{% endblock %}

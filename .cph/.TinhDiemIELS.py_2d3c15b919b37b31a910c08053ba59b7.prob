@@ -1,0 +1,1 @@
+{"name":"Local: TinhDiemIELS","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\TinhDiemIELS.py","tests":[{"id":1693202497264,"input":"2\n15 25 5.0 5.5\n22 32 6.0 6.0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\TinhDiemIELS.py","group":"local","local":true}

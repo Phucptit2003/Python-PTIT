@@ -1,0 +1,1 @@
+{"name":"Local: KiemTrachiahet","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\KiemTrachiahet.py","tests":[{"id":1696985679800,"input":"1 10\n10\n2001 2309\n50\n34 2003\n50\n-1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\KiemTrachiahet.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: bfs","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\bfs.py","tests":[{"id":1691814749744,"input":"7 7\n1 2\n1 3\n1 5\n2 4\n2 6\n3 7\n5 6","output":"1\n2\n3\n5\n4\n6\n7"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\bfs.py","group":"local","local":true}

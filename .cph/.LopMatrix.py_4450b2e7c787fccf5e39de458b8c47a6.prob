@@ -1,0 +1,1 @@
+{"name":"Local: LopMatrix","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\LopMatrix.py","tests":[{"id":1692854169764,"input":"1\n2 3\n1 2 5\n3 4 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\LopMatrix.py","group":"local","local":true}

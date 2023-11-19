@@ -1,0 +1,36 @@
+# Test case 01
+Input:
+    'codename': 'C',
+    'codewords': ['1', '01', '001', '000']
+	
+    code1 = ['1', '01', '001', '000']
+    code2 = ['000', '01', '001', '1']
+Output
+	Các đặc tính cơ bản của bộ mã 'C':
+	Đều: Không
+	Suy biến: Có
+	Minh họa suy biến: Bộ mã không phải là mã khối tuyến tính.
+	Giải mã duy nhất: Có
+	Tính prefix: Không
+	Minh họa không prefix: Bộ mã không phải là mã khối tuyến tính.
+	Mã vòng tuyến tính: Không
+
+	Hai bộ mã là hoán vị của nhau: Có
+# Test case 02
+Input:
+    'codename': 'P',
+    'codewords': ['0', '10', '010', '111']
+
+     code1 = ['0', '10', '010', '111']
+     code2 = ['000', '01', '001', '1']
+Output:
+	Các đặc tính cơ bản của bộ mã 'P':
+	Đều: Không
+	Suy biến: Có
+	Minh họa suy biến: Bộ mã không phải là mã khối tuyến tính.
+	Giải mã duy nhất: Có
+	Tính prefix: Không
+	Minh họa không prefix: Bộ mã không phải là mã khối tuyến tính.
+	Mã vòng tuyến tính: Không
+
+	Hai bộ mã là hoán vị của nhau: Không

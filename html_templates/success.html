@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thông báo thành công</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <p>
+            {% if "Gửi phản hồi thành công" in message %}
+                Bạn có thể <a href="/">quay về trang chủ</a> hoặc <a href="/feedback">gửi tiếp phản hồi</a>.
+            {% else %}
+                <a href="/">Quay về trang chủ</a>
+            {% endif %}
+        </p>
+    </div>
+</body>
+</html>

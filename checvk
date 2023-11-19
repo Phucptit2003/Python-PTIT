@@ -1,0 +1,6 @@
+dem=0
+n=int(input())
+for i in range(n+1):
+    dem+=i
+    print(dem)
+print(dem)

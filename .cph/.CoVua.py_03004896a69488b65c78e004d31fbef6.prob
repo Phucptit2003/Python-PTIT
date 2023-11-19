@@ -1,0 +1,1 @@
+{"name":"Local: CoVua","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\CoVua.py","tests":[{"id":1692497698758,"input":"2 1","output":""},{"id":1692498951335,"input":"5 3\n4 1 2 1 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\CoVua.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 24-9","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\24-9.py","tests":[{"id":1695543288988,"input":"7 3\n3 7 3","output":"2 2 2 2 2 1 2"},{"id":1695543491825,"input":"5 3\n2 3 2","output":"2 2 1 2 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\24-9.py","group":"local","local":true}

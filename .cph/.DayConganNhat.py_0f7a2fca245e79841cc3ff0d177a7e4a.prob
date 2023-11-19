@@ -1,0 +1,1 @@
+{"name":"Local: DayConganNhat","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DayConganNhat.py","tests":[{"id":1692932570794,"input":"3\n8 3\n6 9 7 10 12 24 36 27\n4 3\n2 4 6 8\n4 6\n1 2 3 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DayConganNhat.py","group":"local","local":true}

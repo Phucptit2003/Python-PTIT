@@ -28,6 +28,16 @@ class EmployeeManagementApp:
         self.employee_salary_label.pack()
         self.employee_salary_entry = tk.Entry(root)
         self.employee_salary_entry.pack()
+        
+        self.employee_department_label=tk.Label(root,text="Mã phòng ban")
+        self.employee_department_label.pack()
+        self.employee_department_label=tk.Entry(root)
+        self.employee_department_label.pack()
+        
+        self.employee_namedepartment_label=tk.Label(root,text="Tên phòng ban")
+        self.employee_namedepartment_label.pack()
+        self.employee_namedepartment_label=tk.Entry(root)
+        self.employee_namedepartment_label.pack()
 
         # Tạo các nút chức năng
         self.add_button = tk.Button(root, text="Thêm nhân viên", command=self.add_employee)
@@ -52,6 +62,8 @@ class EmployeeManagementApp:
         employee_id = self.employee_id_entry.get()
         employee_name = self.employee_name_entry.get()
         employee_salary = self.employee_salary_entry.get()
+        employee_department=self.employee_department_label.get()
+        employee_namedepartment=self.employee_namedepartment_label.get()
         
         # Kiểm tra xem mã số đã tồn tại hay chưa
         for emp in self.employee_data:
@@ -62,7 +74,9 @@ class EmployeeManagementApp:
         new_employee = {
             'Mã số': employee_id,
             'Họ tên': employee_name,
-            'Mức lương': employee_salary
+            'Mức lương': employee_salary,
+            'Mã phòng ban': employee_department,
+            'Tên phòng ban':employee_namedepartment
         }
         self.employee_data.append(new_employee)
         self.clear_entries()
@@ -97,19 +111,19 @@ class EmployeeManagementApp:
         list_window = tk.Toplevel(self.root)
         list_window.title("Danh sách nhân viên")
         for emp in self.employee_data:
-            emp_info = f"Mã số: {emp['Mã số']}, Họ tên: {emp['Họ tên']}, Mức lương: {emp['Mức lương']}"
+            emp_info = f"Mã số: {emp['Mã số']}, Họ tên: {emp['Họ tên']}, Mức lương: {emp['Mức lương']},Mã phòng ban: {emp['Mã phòng ban']};Tên phòng ban: {emp['Tên phòng ban']}"
             label = tk.Label(list_window, text=emp_info)
             label.pack()
 
     def save_data_to_file(self):
-        with open("NV.txt", "w") as file:
+        with open("NV.txt", "w", encoding="utf-8") as file:
             for emp in self.employee_data:
                 emp_info = f"{emp['Mã số']};{emp['Họ tên']};{emp['Mức lương']};{emp['Mã phòng ban']};{emp['Tên phòng ban']}\n"
                 file.write(emp_info)
 
     def load_data_from_file(self):
         try:
-            with open("NV.txt", "r", encoding="utf-8") as file:
+            with open("NV.txt", "r") as file:
                 for line in file:
                     employee_info = line.strip().split(";")
                     employee = {
@@ -123,7 +137,6 @@ class EmployeeManagementApp:
         except FileNotFoundError:
             # Handle the case where the file doesn't exist
             pass
-
 
     def clear_entries(self):
         self.employee_id_entry.delete(0, tk.END)

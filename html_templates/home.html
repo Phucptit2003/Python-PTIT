@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang chủ</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với trang chủ</h1>
+        <p>Hãy chọn một trong các tùy chọn dưới đây:</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('register') }}" class="btn">Đăng ký</a></li>
+            <li><a href="{{ url_for('login') }}" class="btn">Đăng nhập</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

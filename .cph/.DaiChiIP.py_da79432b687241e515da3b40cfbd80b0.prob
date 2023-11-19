@@ -1,0 +1,1 @@
+{"name":"Local: DaiChiIP","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DaiChiIP.py","tests":[{"id":1693202279447,"input":"2\n192.168.1.1\n256.255.255.255","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DaiChiIP.py","group":"local","local":true}

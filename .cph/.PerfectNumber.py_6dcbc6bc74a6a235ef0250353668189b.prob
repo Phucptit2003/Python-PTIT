@@ -1,0 +1,1 @@
+{"name":"Local: PerfectNumber","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\PerfectNumber.py","tests":[{"id":1692751980669,"input":"3\n13\n753\n757","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\PerfectNumber.py","group":"local","local":true}

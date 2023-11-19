@@ -1,0 +1,5 @@
+n=int(input())
+a=input()
+b=a.split(" ")
+sorted(b,reverse=True)
+print(b)

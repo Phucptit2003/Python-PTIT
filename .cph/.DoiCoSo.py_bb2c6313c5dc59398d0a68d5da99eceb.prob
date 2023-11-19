@@ -1,0 +1,1 @@
+{"name":"Local: DoiCoSo","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DoiCoSo.py","tests":[{"id":1696234473387,"input":"3\n10 2\n2021 2\n31 16","output":"1010\n11111100101\n1F"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\DoiCoSo.py","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 28-7","url":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\28-7.py","tests":[{"id":1690501779216,"input":"3\n3 2\n1 2 3\n2 3\n1 1\n4 3\n2 8 3 5","output":"2 1 3 \n1 2 \n3 1 2 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\phucl\\OneDrive\\Desktop\\Python\\28-7.py","group":"local","local":true}
